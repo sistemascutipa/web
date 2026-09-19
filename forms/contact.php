@@ -1,41 +1,29 @@
 <?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
+declare(strict_types=1);
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+  header('Location: ../index.html#contacto'); exit;
+}
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
+$name = trim((string)($_POST['name'] ?? ''));
+$email = trim((string)($_POST['email'] ?? ''));
+$subject = trim((string)($_POST['subject'] ?? 'Consulta desde la web'));
+$message = trim((string)($_POST['message'] ?? ''));
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+if ($name === '' || !filter_var($email, FILTER_VALIDATE_EMAIL) || $message === '') {
+  http_response_code(422);
+  echo '<!doctype html><html lang="es"><meta charset="utf-8"><title>Formulario incompleto</title><body style="font-family:Arial;max-width:620px;margin:80px auto;padding:20px"><h1>Revisa los datos</h1><p>Completa tu nombre, correo válido y mensaje.</p><a href="../index.html#contacto">Volver al formulario</a></body></html>';
+  exit;
+}
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+$recipients = 'maurodelta9@gmail.com, operacionesTI@sistemascutipa.com';
+$safeSubject = str_replace(["\r", "\n"], '', $subject);
+$headers = "From: formulario@sistemascutipa.com\r\n";
+$headers .= "Reply-To: " . str_replace(["\r", "\n"], '', $email) . "\r\n";
+$headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+$body = "Nuevo mensaje desde sistemascutipa.com\n\nNombre: {$name}\nCorreo: {$email}\nAsunto: {$safeSubject}\n\nMensaje:\n{$message}\n";
+$sent = mail($recipients, $safeSubject, $body, $headers);
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
-
-  echo $contact->send();
+if (!$sent) { http_response_code(500); }
 ?>
+<!doctype html><html lang="es"><meta charset="utf-8"><title><?= $sent ? 'Mensaje enviado' : 'No se pudo enviar' ?></title><body style="font-family:Arial;max-width:620px;margin:80px auto;padding:20px"><h1><?= $sent ? 'Gracias por contactarnos' : 'No se pudo enviar el mensaje' ?></h1><p><?= $sent ? 'Recibimos tu solicitud y te responderemos pronto.' : 'El servidor no pudo procesar el correo. Escríbenos por WhatsApp al +51 987 639 368.' ?></p><a href="../index.html">Volver a Sistemas Cutipa</a></body></html>
