@@ -1,1238 +1,475 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Sistemas Cutipa</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistemas Cutipa | Tecnología y facturación electrónica</title>
+  <meta name="description"
+    content="Facturación electrónica, soporte TI, asesoría tecnológica, tributaria y contable para empresas en Perú.">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iLanding
-  * Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
-  * Updated: Oct 28 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Sistemas Cutipa</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Inicio</a></li>
-          <li><a href="#about">Nosotros</a></li>
-          <li><a href="#features">Caracteristicas</a></li>
-          <!-- <li><a href="#services">servicios</a></li> -->
-          <li><a href="#pricing">precios</a></li>
-          <li class="dropdown"><a href="#"><span>servicios</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Facturacion Electronica</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li> -->
-              <li><a href="#">Asesoria Tecnologica</a></li>
-              <li><a href="#">Asesoria Tributaria</a></li>
-              <li><a href="#">Asesoria Contable</a></li>
-              <li><a href="#">Cursos de TI</a></li>
-              <li><a href="#">Soporte TI</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="https://appsoluctimyr.pse.pe/" target="_blank">Facturacion Electronica</a>
-      <!-- <a class="btn-getstarted" href="index.html#about">Facturacion Electronica v2.0</a> -->
-
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><img class="brand-image" src="assets/img/custom/logo-cutipa.png"
+          alt="Sistemas Cutipa"></a>
+      <nav class="main-nav" id="main-nav"><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a
+          href="#soluciones">Soluciones</a><a href="#precios">Precios</a><a href="#guias">Guías</a><a
+          href="#blog">Blog</a><a href="#contacto">Contacto</a><a class="mobile-access mobile-v2"
+          href="https://sistemascutipa.proveedorpse.com/#/login" target="_blank">Acceso V2</a><a
+          class="mobile-access mobile-v1" href="https://appsoluctimyr.pse.pe/" target="_blank">Acceso V1</a></nav>
+      <div class="nav-access"><a class="btn btn-primary nav-cta" href="https://sistemascutipa.proveedorpse.com/#/login"
+          target="_blank" rel="noopener">Acceso V2 <i class="bi bi-arrow-up-right"></i></a><a class="btn btn-v1 nav-cta"
+          href="https://appsoluctimyr.pse.pe/" target="_blank" rel="noopener">Acceso V1 <i
+            class="bi bi-arrow-up-right"></i></a></div>
+      <button class="menu-toggle" aria-label="Abrir menú"><i class="bi bi-list"></i></button>
     </div>
   </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
-              <div class="company-badge mb-4">
-                <i class="bi bi-gear-fill me-2"></i>
-                Soluciones en Tecnologia Cloud
-              </div>
-
-              <h1 class="mb-4">
-                Facturacion Electronica <br>
-                Soluciones Cloud <br>
-                <span class="accent-text">Automatización de Procesos</span>
-              </h1>
-
-              <p class="mb-4 mb-md-5">
-                Brindamos soluciones agiles para sus Negocio con enfoque innovador.
-                Automazación de procesos, soluciones escalables de TI.
-              </p>
-
-              <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Iniciar Aquí</a>
-                <a href="https://www.youtube.com/watch?v=OG2OqAUSfr8&list=PLIGLY84N6H0x_CgSGCjHV5ffUOglxJYCO" class="btn btn-link mt-2 mt-sm-0 glightbox">
-                  <i class="bi bi-play-circle me-1"></i>
-                  Play Video
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid">
-
-              <div class="customers-badge">
-                <div class="customer-avatars">
-                  <img src="assets/img/avatar-1.webp" alt="Customer 1" class="avatar">
-                  <img src="assets/img/avatar-2.webp" alt="Customer 2" class="avatar">
-                  <img src="assets/img/avatar-3.webp" alt="Customer 3" class="avatar">
-                  <img src="assets/img/avatar-4.webp" alt="Customer 4" class="avatar">
-                  <img src="assets/img/avatar-5.webp" alt="Customer 5" class="avatar">
-                  <span class="avatar more">12+</span>
-                </div>
-                <p class="mb-0 mt-2">100+ cliente satisfechos en todo el Perú confiando con Sistemas Cutipa</p>
-              </div>
-            </div>
-          </div>
+  <main>
+    <section id="inicio" class="hero-modern">
+      <div class="container hero-grid">
+        <div class="hero-copy"><span class="eyebrow"><i class="bi bi-stars"></i> Tecnología que impulsa tu
+            negocio</span>
+          <h1>Haz que tu negocio avance <span>más rápido.</span></h1>
+          <p class="lead">Soluciones digitales simples, seguras y escalables para facturar, controlar y hacer crecer tu
+            empresa.</p>
+          <div class="hero-actions"><a class="btn btn-primary btn-lg" href="#soluciones">Conoce nuestras soluciones <i
+                class="bi bi-arrow-right"></i></a><a class="text-link"
+              href="https://wa.me/51987639368?text=Hola%20Sistemas%20Cutipa%2C%20quiero%20informaci%C3%B3n"
+              target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> Hablar con un asesor</a></div>
+          <div class="trust-row"><span><i class="bi bi-shield-check"></i> Atención personalizada</span><span><i
+                class="bi bi-cloud-check"></i> Soluciones en la nube</span></div>
         </div>
-
-        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-trophy"></i>
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+          <div class="dashboard-card">
+            <div class="dash-top"><span class="dot red"></span><span class="dot yellow"></span><span
+                class="dot green"></span><span class="dash-label">Panel de gestión</span></div>
+            <div class="dash-body">
+              <div class="dash-heading">
+                <div><small>Ventas del mes</small><strong>S/ 28,450.00</strong></div><span class="positive"><i
+                    class="bi bi-arrow-up"></i> 18.6%</span>
               </div>
-              <div class="stat-content">
-                <h4>9 años brindando soluciones</h4>
-                <p class="mb-0">Los clientes confian en Nosotros.</p>
-              </div>
+              <div class="bars"><i style="height:38%"></i><i style="height:55%"></i><i style="height:45%"></i><i
+                  style="height:72%"></i><i style="height:60%"></i><i style="height:88%"></i><i
+                  style="height:76%"></i><i style="height:100%"></i></div>
+              <div class="dash-footer"><span><i class="bi bi-receipt"></i> 1,248 comprobantes</span><span><i
+                    class="bi bi-check-circle-fill"></i> SUNAT conectado</span></div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-briefcase"></i>
-              </div>
-              <div class="stat-content">
-                <h4>+ 200 Empresas</h4>
-                <p class="mb-0">Confian en Nosotros con sus Procesos</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-graph-up"></i>
-              </div>
-              <div class="stat-content">
-                <h4>+ 100 Contribuyentes</h4>
-                <p class="mb-0">Han logrado cumplir con la SUNAT</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-award"></i>
-              </div>
-              <div class="stat-content">
-                <h4>+ 100 Contribuyentes</h4>
-                <p class="mb-0">Respaldan Nuestros servicios en TI</p>
-              </div>
-            </div>
-          </div>
+          <div class="floating-card float-one"><i class="bi bi-file-earmark-check"></i><span>Comprobante
+              emitido<strong>Correctamente</strong></span></div>
+          <div class="floating-card float-two"><i class="bi bi-graph-up-arrow"></i><span>Tu negocio<strong>en
+                crecimiento</strong></span></div>
         </div>
-
       </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 align-items-center justify-content-between">
-
-          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
-            <span class="about-meta">MAS SOBRE NOSOTROS</span>
-            <h2 class="about-title">Nuestros Servicios para tu Negocio</h2>
-            <p class="about-description">El equipo de Sistemas Cutipa cuenta con un amplio de especialistas que requieren cada modelo de negocio, nosotros le orientamos a mejorar sus procesos para una mejor trazabilidad</p>
-
-            <div class="row feature-list-wrapper">
-              <div class="col-md-6">
-                <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i> Facturación Electronica </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Asesoria Tecnologica </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Asesoria Tributario </li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i> Asesoria Contable </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Cursos de TI </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Soporte TI </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="info-wrapper">
-              <div class="row gy-4">
-                <div class="col-lg-5">
-                  <div class="profile d-flex align-items-center gap-3">
-                    <img src="assets/img/avatar-1.webp" alt="CEO Profile" class="profile-image">
-                    <div>
-                      <h4 class="profile-name">Ing. Mcutipa</h4>
-                      <p class="profile-position">CEO &amp; Founder</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-7">
-                  <div class="contact-info d-flex align-items-center gap-2">
-                    <i class="bi bi-telephone-fill"></i>
-                    <div>
-                      <p class="contact-label">Call us anytime</p>
-                      <p class="contact-number">+51 987 639 368</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="image-wrapper">
-              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-                <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
-                <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
-              </div>
-              <div class="experience-badge floating">
-                <h3>+20 <span>Años</span></h3>
-                <p>Expriencia en Servicios Tecnologicas</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
+    </section>
+    <section class="trust-slider" aria-label="Sistemas Cutipa y sus soluciones">
+      <div class="slider-track">
+        <div class="slide"><i class="bi bi-patch-check-fill"></i><span><strong>Facturación
+              electrónica</strong><small>Conectada con SUNAT</small></span></div>
+        <div class="slide"><i class="bi bi-truck"></i><span><strong>Guías electrónicas</strong><small>Remitente y
+              transportista</small></span></div>
+        <div class="slide"><i class="bi bi-cloud-check-fill"></i><span><strong>Operación en la
+              nube</strong><small>Disponible desde cualquier lugar</small></span></div>
+        <div class="slide"><i class="bi bi-people-fill"></i><span><strong>Clientes satisfechos</strong><small>Soluciones
+              para empresas peruanas</small></span></div>
+        <div class="slide"><i class="bi bi-shield-lock-fill"></i><span><strong>Seguridad y respaldo</strong><small>AWS e
+              ISO 27001</small></span></div>
       </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Caracteristicas</h2>
-        <p>Sus necesidades tecnologicas son nuestra especialidad</p>
-      </div><!-- End Section Title -->
-
+    </section>
+    <section class="business-slider" aria-label="Promociones y soluciones destacadas">
+      <div class="business-slide active">
+        <div><span class="eyebrow">FACTURACIÓN ELECTRÓNICA</span>
+          <h2>Emite. Controla. <span>Crece.</span></h2>
+          <p>La solución que acompaña cada etapa de tu negocio.</p><a class="btn btn-primary"
+            href="servicios/facturacion-electronica.html">Conocer solución <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="slide-art invoice-art">
+          <div class="invoice-window"><span></span><strong>Factura electrónica</strong><small>Validada por
+              SUNAT</small><i class="bi bi-check-circle-fill"></i></div>
+        </div>
+      </div>
+      <div class="business-slide">
+        <div><span class="eyebrow">GUÍAS ELECTRÓNICAS</span>
+          <h2>Tu mercadería llega <span>más lejos.</span></h2>
+          <p>Emite guías remitentes y transportistas desde cualquier dispositivo.</p><a class="btn btn-primary"
+            href="#guias">Ver guías electrónicas <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="slide-art delivery-art"><i class="bi bi-truck"></i><span>Origen <b>→</b> Destino</span></div>
+      </div>
+      <div class="business-slide">
+        <div><span class="eyebrow">ACOMPAÑAMIENTO TI</span>
+          <h2>Tecnología que trabaja <span>contigo.</span></h2>
+          <p>Soporte, asesoría y capacitación para que no te detengas.</p><a class="btn btn-primary"
+            href="#contacto">Hablar con un especialista <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="slide-art support-art"><i class="bi bi-headset"></i><strong>Estamos para
+            ayudarte</strong><small>Atención cercana para tu empresa</small></div>
+      </div>
+      <div class="slider-controls"><button data-slide="0" class="active" aria-label="Slide 1"></button><button
+          data-slide="1" aria-label="Slide 2"></button><button data-slide="2" aria-label="Slide 3"></button></div>
+    </section>
+    <section id="nosotros" class="section-modern intro-section">
+      <div class="container two-col">
+        <div><span class="eyebrow">SOBRE SISTEMAS CUTIPA</span>
+          <h2>Tu aliado tecnológico para tomar mejores decisiones.</h2>
+        </div>
+        <div>
+          <p class="section-lead">Acompañamos a empresas y emprendedores a simplificar sus operaciones con herramientas
+            digitales, orientación especializada y soporte cercano.</p><a class="text-link" href="#contacto">Conversemos
+            sobre tu proyecto <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <section id="soluciones" class="section-modern solutions-section">
       <div class="container">
-
-        <div class="d-flex justify-content-center">
-
-          <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
-
-            <li class="nav-item">
-              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                <h4>Facturacion</h4>
-              </a>
-            </li><!-- End tab nav item -->
-
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                <h4>Soporte TI</h4>
-              </a><!-- End tab nav item -->
-
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                <h4>Asesoria</h4>
-              </a>
-            </li><!-- End tab nav item -->
-
-          </ul>
-
+        <div class="section-heading">
+          <div><span class="eyebrow">NUESTRAS SOLUCIONES</span>
+            <h2>Todo lo que necesitas,<br><span>en un solo lugar.</span></h2>
+          </div>
+          <p>Desde la facturación electrónica hasta el soporte de tu infraestructura, diseñamos soluciones que se
+            adaptan a tu realidad.</p>
         </div>
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="tab-pane fade active show" id="features-tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Soluciones en Facturacion Electronica</h3>
-                <p class="fst-italic">
-                  Tenemos una solución de Sistemas de Facturación acorde a su modelo del negocio
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Toma pedidos para vendedores en campo</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Registro de Inventario de productos</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Trazabelidad de productos vs Clientes para una toma de decisiones</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-1.webp" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
-
-          <div class="tab-pane fade" id="features-tab-2">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Soporte TI los 365 días al año</h3>
-                <p class="fst-italic">
-                  Sistemas Cutipa cuenta con un personal de Soporte TI 24/7 que estará disponible en cualquier duda o consulta que pueda necesitar.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Especialista disponible 24/7</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Siempre estaremos pendientes para UD.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Capacitaciones virtuales y Soporte TI virtual 24/7</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Cuando adquiera nuestros servicios contará con un especialista para atender sus necesidades.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-2.webp" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
-
-          <div class="tab-pane fade" id="features-tab-3">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Asesoria personalizado</h3>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Asesoria tecnologica y soluciones Cloud</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Asesoria Tributaria Comercial</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Asesoria Contable para iniciar un Nuevo Negocio</span></li>
-                </ul>
-                <p class="fst-italic">
-                  Sistemas Cutipa se preucupa para que su negocio se encuentre en banguardia con la Tecnologia
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-3.webp" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End tab content item -->
-
-        </div>
-
+        <div class="service-grid"><a class="service-card featured" href="servicios/facturacion-electronica.html"><img
+              src="assets/img/features-illustration-1.webp" alt="Facturación electrónica"><span class="service-icon"><i
+                class="bi bi-receipt-cutoff"></i></span>
+            <h3>Facturación electrónica</h3>
+            <p>Emite facturas, boletas, notas y guías desde cualquier dispositivo, con conexión a SUNAT.</p><span
+              class="card-link">Conocer solución <i class="bi bi-arrow-up-right"></i></span>
+          </a><a class="service-card" href="servicios/asesoria-tecnologica.html"><img
+              src="assets/img/features-illustration-2.webp" alt="Asesoría tecnológica"><span class="service-icon"><i
+                class="bi bi-diagram-3"></i></span>
+            <h3>Asesoría tecnológica</h3>
+            <p>Convierte tus retos de TI en una hoja de ruta clara y accionable.</p><span class="card-link">Ver servicio
+              <i class="bi bi-arrow-up-right"></i></span>
+          </a><a class="service-card" href="servicios/asesoria-tributaria.html"><img
+              src="assets/img/features-illustration-3.webp" alt="Asesoría tributaria"><span class="service-icon"><i
+                class="bi bi-bank"></i></span>
+            <h3>Asesoría tributaria</h3>
+            <p>Orientación para cumplir tus obligaciones y operar con mayor tranquilidad.</p><span class="card-link">Ver
+              servicio <i class="bi bi-arrow-up-right"></i></span>
+          </a><a class="service-card" href="servicios/asesoria-contable.html"><img src="assets/img/about-2.webp"
+              alt="Asesoría contable"><span class="service-icon"><i class="bi bi-calculator"></i></span>
+            <h3>Asesoría contable</h3>
+            <p>Información ordenada para entender tus números y hacer crecer tu empresa.</p><span class="card-link">Ver
+              servicio <i class="bi bi-arrow-up-right"></i></span>
+          </a><a class="service-card" href="servicios/cursos-ti.html"><img src="assets/img/phone-app-screen.webp"
+              alt="Cursos de tecnología"><span class="service-icon"><i class="bi bi-mortarboard"></i></span>
+            <h3>Cursos de TI</h3>
+            <p>Capacitación práctica para que tu equipo aproveche mejor la tecnología.</p><span class="card-link">Ver
+              servicio <i class="bi bi-arrow-up-right"></i></span>
+          </a><a class="service-card" href="servicios/soporte-ti.html"><img src="assets/img/services.jpg"
+              alt="Soporte TI"><span class="service-icon"><i class="bi bi-headset"></i></span>
+            <h3>Soporte TI</h3>
+            <p>Asistencia técnica para mantener tus sistemas disponibles y seguros.</p><span class="card-link">Ver
+              servicio <i class="bi bi-arrow-up-right"></i></span>
+          </a></div>
+        <div class="home-return"><a class="btn btn-outline" href="#inicio"><i class="bi bi-house"></i> Retornar a
+            inicio</a></div>
       </div>
-
-    </section><!-- /Features Section -->
-
-    <!-- Features Cards Section -->
-    <section id="features-cards" class="features-cards section">
-
+    </section>
+    <section class="section-modern benefits-section">
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="feature-box orange">
-              <i class="bi bi-award"></i>
-              <h4>Equipo calificado</h4>
-              <p>Nuestro equipo calificado está para ayudar en sus procesos</p>
-            </div>
-          </div><!-- End Feature Borx-->
-
-          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="feature-box blue">
-              <i class="bi bi-patch-check"></i>
-              <h4>Clientes Exitosos</h4>
-              <p>Nuestros clientes exitosos con nuestras soluciones TI</p>
-            </div>
-          </div><!-- End Feature Borx-->
-
-          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="feature-box green">
-              <i class="bi bi-sunrise"></i>
-              <h4>Cuidado del medio ambiente</h4>
-              <p>Al emitir comprobantes electronicos aporta al cuidado del medio ambiente al no usuar papel</p>
-            </div>
-          </div><!-- End Feature Borx-->
-
-          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="feature-box red">
-              <i class="bi bi-shield-check"></i>
-              <h4>Sistemas Seguros</h4>
-              <p>Nuestro sistema es seguro contra perdida de información y la disponibilidad que ofrecemos 99.999999%</p>
-            </div>
-          </div><!-- End Feature Borx-->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Features Cards Section -->
-
-    <!-- Features 2 Section -->
-    <section id="features-2" class="features-2 section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-
-          <div class="col-lg-4">
-
-            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
-              <div class="d-flex align-items-center justify-content-end gap-4">
-                <div class="feature-content">
-                  <h3>Use On Any Device</h3>
-                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.</p>
-                </div>
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-display"></i>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
-              <div class="d-flex align-items-center justify-content-end gap-4">
-                <div class="feature-content">
-                  <h3>Feather Icons</h3>
-                  <p>Phasellus ullamcorper ipsum rutrum nunc nunc nonummy metus vestibulum volutpat sapien arcu sed augue aliquam erat volutpat.</p>
-                </div>
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-feather"></i>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-            <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
-              <div class="d-flex align-items-center justify-content-end gap-4">
-                <div class="feature-content">
-                  <h3>Retina Ready</h3>
-                  <p>Aenean tellus metus bibendum sed posuere ac mattis non nunc vestibulum fringilla purus sit amet fermentum aenean commodo.</p>
-                </div>
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-eye"></i>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
+        <div class="benefits-grid">
+          <div><span class="eyebrow">FACTURACIÓN ELECTRÓNICA</span>
+            <h2>Más que emitir comprobantes: <span>controla tu negocio.</span></h2>
+            <p class="section-lead">Integramos lo mejor de las plataformas de facturación electrónica para ofrecerte una
+              experiencia ágil, completa y acompañada.</p><a href="servicios/facturacion-electronica.html"
+              class="btn btn-dark">Ver características <i class="bi bi-arrow-right"></i></a>
           </div>
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="phone-mockup text-center">
-              <img src="assets/img/phone-app-screen.webp" alt="Phone Mockup" class="img-fluid">
-            </div>
-          </div><!-- End Phone Mockup -->
-
-          <div class="col-lg-4">
-
-            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
-              <div class="d-flex align-items-center gap-4">
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-code-square"></i>
-                </div>
-                <div class="feature-content">
-                  <h3>W3c Valid Code</h3>
-                  <p>Donec vitae sapien ut libero venenatis faucibus nullam quis ante etiam sit amet orci eget eros faucibus tincidunt.</p>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
-              <div class="d-flex align-items-center gap-4">
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-phone"></i>
-                </div>
-                <div class="feature-content">
-                  <h3>Fully Responsive</h3>
-                  <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.</p>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
-            <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
-              <div class="d-flex align-items-center gap-4">
-                <div class="feature-icon flex-shrink-0">
-                  <i class="bi bi-browser-chrome"></i>
-                </div>
-                <div class="feature-content">
-                  <h3>Browser Compatibility</h3>
-                  <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus elementum semper nisi aenean vulputate.</p>
-                </div>
-              </div>
-            </div><!-- End .feature-item -->
-
+          <div class="benefit-list">
+            <div><i class="bi bi-phone"></i><span><strong>Desde cualquier dispositivo</strong><small>PC, tablet o
+                  celular.</small></span></div>
+            <div><i class="bi bi-box-seam"></i><span><strong>Productos e inventario</strong><small>Catálogo, stock y
+                  kardex.</small></span></div>
+            <div><i class="bi bi-bar-chart-line"></i><span><strong>Reportes para decidir</strong><small>Ventas, compras
+                  y SIRE.</small></span></div>
+            <div><i class="bi bi-plug"></i><span><strong>Integración API</strong><small>Conecta tu sistema
+                  actual.</small></span></div>
           </div>
         </div>
-
       </div>
-
-    </section><!-- /Features 2 Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row justify-content-center align-items-center position-relative">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="display-4 mb-4">Maecenas tempus tellus eget condimentum</h2>
-            <p class="mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel</p>
-            <a href="#" class="btn btn-cta">Call To Action</a>
-          </div>
-
-          <!-- Abstract Background Elements -->
-          <div class="shape shape-1">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path d="M47.1,-57.1C59.9,-45.6,68.5,-28.9,71.4,-10.9C74.2,7.1,71.3,26.3,61.5,41.1C51.7,55.9,35,66.2,16.9,69.2C-1.3,72.2,-21,67.8,-36.9,57.9C-52.8,48,-64.9,32.6,-69.1,15.1C-73.3,-2.4,-69.5,-22,-59.4,-37.1C-49.3,-52.2,-32.8,-62.9,-15.7,-64.9C1.5,-67,34.3,-68.5,47.1,-57.1Z" transform="translate(100 100)"></path>
-            </svg>
-          </div>
-
-          <div class="shape shape-2">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path d="M41.3,-49.1C54.4,-39.3,66.6,-27.2,71.1,-12.1C75.6,3,72.4,20.9,63.3,34.4C54.2,47.9,39.2,56.9,23.2,62.3C7.1,67.7,-10,69.4,-24.8,64.1C-39.7,58.8,-52.3,46.5,-60.1,31.5C-67.9,16.4,-70.9,-1.4,-66.3,-16.6C-61.8,-31.8,-49.7,-44.3,-36.3,-54C-22.9,-63.7,-8.2,-70.6,3.6,-75.1C15.4,-79.6,28.2,-58.9,41.3,-49.1Z" transform="translate(100 100)"></path>
-            </svg>
-          </div>
-
-          <!-- Dot Pattern Groups -->
-          <div class="dots dots-1">
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-              </pattern>
-              <rect width="100" height="100" fill="url(#dot-pattern)"></rect>
-            </svg>
-          </div>
-
-          <div class="dots dots-2">
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <pattern id="dot-pattern-2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-              </pattern>
-              <rect width="100" height="100" fill="url(#dot-pattern-2)"></rect>
-            </svg>
-          </div>
-
-          <div class="shape shape-3">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path d="M43.3,-57.1C57.4,-46.5,71.1,-32.6,75.3,-16.2C79.5,0.2,74.2,19.1,65.1,35.3C56,51.5,43.1,65,27.4,71.7C11.7,78.4,-6.8,78.3,-23.9,72.4C-41,66.5,-56.7,54.8,-65.4,39.2C-74.1,23.6,-75.8,4,-71.7,-13.2C-67.6,-30.4,-57.7,-45.2,-44.3,-56.1C-30.9,-67,-15.5,-74,0.7,-74.9C16.8,-75.8,33.7,-70.7,43.3,-57.1Z" transform="translate(100 100)"></path>
-            </svg>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
+    </section>
+    <section id="precios" class="section-modern pricing-section">
       <div class="container">
-
-        <div class="row g-5">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
+        <div class="section-heading centered"><span class="eyebrow">PLANES DE FACTURACIÓN ELECTRÓNICA</span>
+          <h2>Elige el plan que acompaña tu crecimiento.</h2>
+          <p>Precios referenciales mensuales. Todos los planes incluyen conexión con SUNAT/OSE, soporte y acceso desde
+            la nube.</p>
         </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-card d-flex">
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-activity"></i>
-              </div>
-              <div>
-                <h3>Nesciunt Mete</h3>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card d-flex">
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-diagram-3"></i>
-              </div>
-              <div>
-                <h3>Eosle Commodi</h3>
-                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card d-flex">
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-easel"></i>
-              </div>
-              <div>
-                <h3>Ledo Markt</h3>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-card d-flex">
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-clipboard-data"></i>
-              </div>
-              <div>
-                <h3>Asperiores Commodit</h3>
-                <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Precios</h2>
-        <p>Tenemos un plan de Acuerdo a los necesidades de Negocio</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-4 justify-content-center">
-
-          <!-- Basic Plan -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-card">
-              <h3>Basic Plan</h3>
-              <div class="price">
-                <span class="currency">S/.</span>
-                <span class="amount">49.99</span>
-                <span class="period">/ Mensual</span>
-              </div>
-              <p class="description">Este Plan está diseñado para empresas que estan iniciando un Negocio</p>
-
-              <h4>Caracteristicas del Plan:</h4>
-              <ul class="features-list">
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Puede emitir hasta 500 comprobantes
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Cantidad de usuarios (1)
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Cantidad de locales (1)
-                </li>
-              </ul>
-
-              <a href="#" class="btn btn-primary">
-                Contratar Plan
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
+        <div class="pricing-grid pricing-detailed">
+          <div class="price-card">
+            <h3>Plan Básico</h3>
+            <p>Ideal para pequeños negocios.</p><strong><b>S/ 45.00</b><small>/mes · IGV incluido</small></strong>
+            <ul>
+              <li>Emite hasta 500 facturas, boletas, notas de crédito/débito, guías remitentes y transportistas.</li>
+              <li>Hasta 3 series de comprobantes y 2 puntos de venta.</li>
+              <li>1 local y hasta 2 usuarios.</li>
+              <li>Envío automático de comprobantes por correo.</li>
+              <li>Validación automática ante SUNAT u OSE.</li>
+              <li>Envío de documentos por WhatsApp y Telegram.</li>
+              <li>Reportes SIRE/PLE de ventas y compras.</li>
+              <li>Personalización con logo de la empresa.</li>
+              <li>Aplicación para Android y iOS sin costo adicional.</li>
+              <li>Soporte técnico por ticket y correo.</li>
+              <li>Actualizaciones sin costo adicional.</li>
+            </ul><a href="#contacto" class="btn btn-outline">Solicitar Plan Básico</a>
           </div>
-
-          <!-- Standard Plan -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-card popular">
-              <div class="popular-badge">Most Popular</div>
-              <h3>Standard Plan</h3>
-              <div class="price">
-                <span class="currency">S/.</span>
-                <span class="amount">69.99</span>
-                <span class="period">/ Mensual</span>
-              </div>
-              <p class="description">Este plan es el mas popular porque adiciona Caracteristicas</p>
-
-              <h4>Caracteristicas del Plan:</h4>
-              <ul class="features-list">
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Puede emitir hasta 1000 comprobantes
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Cantidad de usuarios (2)
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Cantidad de locales (1)
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Toma pedidos desde Movil
-                </li>
-              </ul>
-
-              <a href="#" class="btn btn-light">
-                Contratar Plan
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
+          <div class="price-card popular"><span class="popular-tag">Más elegido</span>
+            <h3>Plan Plus</h3>
+            <p>Pensado para negocios en crecimiento.</p><strong><b>S/ 70.00</b><small>/mes · IGV
+                incluido</small></strong>
+            <ul>
+              <li>Incluye todo lo del Plan Básico.</li>
+              <li>Emite hasta 1,500 facturas, boletas, notas y guías.</li>
+              <li>Hasta 10 series, 4 puntos de venta y 2 almacenes.</li>
+              <li>Hasta 2 locales y 3 usuarios.</li>
+              <li>Emite hasta 1,500 notas de venta.</li>
+              <li>Control de inventario, stock y kardex.</li>
+              <li>Carga masiva de facturas y boletas desde Excel.</li>
+              <li>Reportes de ventas resumidos y detallados.</li>
+              <li>Reportes SIRE/PLE y reportes contables.</li>
+              <li>Personalización de logo, colores, letras y mensajes.</li>
+              <li>Soporte por ticket, correo, WhatsApp y llamada.</li>
+            </ul><a href="#contacto" class="btn btn-primary">Solicitar Plan Plus</a>
           </div>
-
-          <!-- Premium Plan -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="pricing-card">
-              <h3>Premium Plan</h3>
-              <div class="price">
-                <span class="currency">S/.</span>
-                <span class="amount">99.99</span>
-                <span class="period">/ month</span>
-              </div>
-              <p class="description">Este plan está diseñado para empresas que requieren funcionalidades extras en el Negocio</p>
-
-              <h4>Caracteristicas del Plan:</h4>
-              <ul class="features-list">
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Puede emitir hasta 2500 comprobantes
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Cantidad de usuarios (3)
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Cantidad de locales y alamacenes (2)
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Toma pedidos desde Movil
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill"></i>
-                  Inventario de Kardex Fisico de almacen
-                </li>
-              </ul>
-
-              <a href="#" class="btn btn-primary">
-                Contratar Plan
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
+          <div class="price-card">
+            <h3>Plan Premium+</h3>
+            <p>Para empresas con mayor operación.</p><strong><b>S/ 99.00</b><small>/mes · IGV incluido</small></strong>
+            <ul>
+              <li>Incluye todo lo del Plan Plus.</li>
+              <li>Emite hasta 3,500 facturas, boletas, notas y guías.</li>
+              <li>Hasta 20 series, 6 puntos de venta y 6 almacenes.</li>
+              <li>Hasta 3 locales y 6 usuarios.</li>
+              <li>Emite hasta 3,500 notas de venta.</li>
+              <li>Carga masiva de documentos en segundo plano.</li>
+              <li>Cronograma de pagos y documentos recurrentes.</li>
+              <li>Cotizaciones, reserva de pedidos y órdenes de compra.</li>
+              <li>Compras, cuentas por cobrar, cuentas por pagar y bancos.</li>
+              <li>Personalización avanzada de documentos.</li>
+              <li>Soporte prioritario por ticket, correo, WhatsApp y llamada.</li>
+            </ul><a href="#contacto" class="btn btn-outline">Solicitar Plan Premium+</a>
           </div>
-
         </div>
-
+        <p class="pricing-note">La propuesta final puede ajustarse al volumen de comprobantes, usuarios, locales,
+          almacenes e integraciones requeridas.</p>
       </div>
-
-    </section><!-- /Pricing Section -->
-
-    <!-- Faq Section -->
-    <section class="faq-9 faq section light-background" id="faq">
-
+    </section>
+    <section class="section-modern app-section">
+      <div class="container app-grid">
+        <div><span class="eyebrow">SIEMPRE CONTIGO</span>
+          <h2>Tu negocio también funciona desde el <span>celular.</span></h2>
+          <p class="section-lead">Consulta tus ventas, emite comprobantes y comparte documentos desde cualquier
+            dispositivo.</p>
+          <div class="app-points"><span><i class="bi bi-phone"></i> Android, iOS y PC</span><span><i
+                class="bi bi-wifi"></i> Acceso en la nube</span><span><i class="bi bi-send"></i> Envía por WhatsApp y
+              correo</span></div>
+        </div>
+        <div class="device-showcase">
+          <div class="device-screen"><i class="bi bi-receipt-cutoff"></i><strong>Comprobante
+              emitido</strong><small>Factura F001-00001245</small><span><i class="bi bi-check-circle-fill"></i> Validado
+              por SUNAT</span>
+            <div class="device-bars"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="device-home"></div>
+        </div>
+      </div>
+    </section>
+    <section id="guias" class="section-modern guides-section">
+      <div class="container guide-grid">
+        <div class="guide-art">
+          <div class="truck-icon"><i class="bi bi-truck"></i></div>
+          <div class="route-line"><span>Origen</span><i class="bi bi-arrow-right"></i><span>Destino</span></div>
+          <div class="guide-document"><strong>GRE-2026-000145</strong><small>Guía electrónica validada</small><i
+              class="bi bi-check-circle-fill"></i></div>
+        </div>
+        <div><span class="eyebrow">GUÍAS ELECTRÓNICAS</span>
+          <h2>Emite tus guías de remisión de forma <span>rápida y ordenada.</span></h2>
+          <p class="section-lead">Gestiona guías remitentes y transportistas, conductores, vehículos y destinos desde
+            una solución integrada.</p>
+          <ul class="check-list">
+            <li><i class="bi bi-check-circle-fill"></i> Guía de remisión remitente y transportista</li>
+            <li><i class="bi bi-check-circle-fill"></i> Control de vehículos y conductores</li>
+            <li><i class="bi bi-check-circle-fill"></i> Emisión desde celular, PC o tablet</li>
+            <li><i class="bi bi-check-circle-fill"></i> Reportes y documentos descargables</li>
+          </ul><a class="btn btn-primary" href="#contacto">Solicitar demostración</a>
+        </div>
+      </div>
+    </section>
+    <section class="section-modern benefits-extra">
       <div class="container">
-        <div class="row">
-
-          <div class="col-lg-5" data-aos="fade-up">
-            <h2 class="faq-title">Have a question? Check out the FAQ</h2>
-            <p class="faq-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.</p>
-            <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
-              <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor"></path>
-              </svg>
-            </div>
+        <div class="section-heading">
+          <div><span class="eyebrow">BENEFICIOS</span>
+            <h2>Una solución pensada para <span>hacerte la vida más fácil.</span></h2>
           </div>
-
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
-            <div class="faq-container">
-
-              <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
-                <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
-                <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
+          <p>Integra tus procesos y trabaja con la tranquilidad de contar con acompañamiento especializado.</p>
+        </div>
+        <div class="benefits-grid-extra">
+          <div><i class="bi bi-lightning-charge-fill"></i>
+            <h3>Emisión rápida</h3>
+            <p>Genera comprobantes en pocos pasos y envíalos inmediatamente.</p>
           </div>
-
+          <div><i class="bi bi-cloud-arrow-up-fill"></i>
+            <h3>Información segura</h3>
+            <p>Tus datos disponibles en la nube con respaldo y continuidad.</p>
+          </div>
+          <div><i class="bi bi-people-fill"></i>
+            <h3>Multiusuario</h3>
+            <p>Organiza equipos, locales, puntos de venta y permisos.</p>
+          </div>
+          <div><i class="bi bi-graph-up-arrow"></i>
+            <h3>Crece contigo</h3>
+            <p>Empieza simple y agrega funcionalidades cuando las necesites.</p>
+          </div>
         </div>
       </div>
-    </section><!-- /Faq Section -->
-
-    <!-- Call To Action 2 Section -->
-    <section id="call-to-action-2" class="call-to-action-2 section dark-background">
-
+    </section>
+    <section id="blog" class="section-modern blog-section">
       <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Call To Action</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a class="cta-btn" href="#">Call To Action</a>
-            </div>
+        <div class="section-heading">
+          <div><span class="eyebrow">RECURSOS PARA TU NEGOCIO</span>
+            <h2>Blog, manuales y <span>materiales útiles.</span></h2>
           </div>
+          <p>Encuentra información para aprovechar mejor la facturación electrónica y administrar tu negocio.</p>
         </div>
-      </div>
-
-    </section><!-- /Call To Action 2 Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contacto</h2>
-        <p>Para contactarse con un especialista en Tecnologia puede realizar en el siguiente Formulario</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-4 g-lg-5">
-          <div class="col-lg-5">
-            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
-              <h3>Informacion Contacto</h3>
-              <p>Somos profesionales integros que le ayudaran en su proceso de innovacion tecnologica, donde primero entendemos sus necesidades
-                 para posterior brindar la mejor solucion para sus necesidades.</p>
-
-              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-geo-alt"></i>
-                </div>
-                <div class="content">
-                  <h4>Our Location</h4>
-                  <p>Villa Santa Rosa de Huachipa</p>
-                  <p>MZ B Lote 10 - Lurigancho Chosica</p>
-                </div>
-              </div>
-
-              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-telephone"></i>
-                </div>
-                <div class="content">
-                  <h4>Phone Number</h4>
-                  <p>+51 987 639 368</p>
-                  <p>+51 953 253 468</p>
-                </div>
-              </div>
-
-              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-envelope"></i>
-                </div>
-                <div class="content">
-                  <h4>Email Address</h4>                  
-                  <p>OperacionesTI@sistemascutipa.com</p>
-                  <p>sistemas.cutipa@gmail.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
-              <h3>Ponte en Contacto</h3>
-              <p>Para contactarse con un Agente especializado llenar el siguiente Formulario</p>
-
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-                <div class="row gy-4">
-
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Nombre Completo" required="">
-                  </div>
-
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Correo Electronico" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Asunto" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Descripcion de mensaje..." required=""></textarea>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                    <button type="submit" class="btn">Enviar Mensaje</button>
-                  </div>
-
-                </div>
-              </form>
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Sistemas Cutipa</span>
+        <div class="resource-grid"><a class="resource-card" href="https://mifact.net/blog/" target="_blank"><i
+              class="bi bi-journal-richtext"></i><span>
+              <h3>Blog de facturación</h3>
+              <p>Consejos y novedades sobre facturación electrónica.</p>
+            </span><i class="bi bi-arrow-up-right"></i></a><a class="resource-card" href="#manuales"><i
+              class="bi bi-play-btn"></i><span>
+              <h3>Manuales y videos</h3>
+              <p>Guías rápidas, videos y documentos para tus usuarios.</p>
+            </span><i class="bi bi-arrow-down"></i></a><a class="resource-card"
+            href="https://mifact.net/#caracteristicas" target="_blank"><i class="bi bi-grid-1x2"></i><span>
+              <h3>Características</h3>
+              <p>Conoce las funciones que puedes implementar en tu negocio.</p>
+            </span><i class="bi bi-arrow-up-right"></i></a></div>
+        <div id="manuales" class="manuales-box">
+          <a href="servicios/files/manual-facturacion-electronica.pdf" class="manual-link" target="_blank"
+            rel="noopener">
+            <i class="bi bi-file-earmark-pdf"></i>
+            <span>
+              <strong>Manual de facturación</strong>
+              <small>Descargar PDF</small>
+            </span>
+            <i class="bi bi-download"></i>
           </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>OperacionesTI@sistemascutipa.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
+          <a href="servicios/files/manual-guias-electronicas.pdf" class="manual-link" target="_blank" rel="noopener">
+            <i class="bi bi-file-earmark-pdf"></i>
+            <span>
+              <strong>Manual de guías electrónicas</strong>
+              <small>Descargar PDF</small>
+            </span>
+            <i class="bi bi-download"></i>
+          </a>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
+          <a href="https://www.youtube.com/watch?v=px3j7KdllAw" class="manual-link" target="_blank" rel="noopener">
+            <i class="bi bi-youtube"></i>
+            <span>
+              <strong>Video: facturación electrónica</strong>
+              <small>Ver en YouTube</small>
+            </span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
+          <a href="https://www.youtube.com/watch?v=41IfRNdr2Tg" class="manual-link" target="_blank" rel="noopener">
+            <i class="bi bi-youtube"></i>
+            <span>
+              <strong>Video: uso del sistema</strong>
+              <small>Ver en YouTube</small>
+            </span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
+    </section>
+    <section class="section-modern clients-section">
+      <div class="container clients-grid">
+        <div><span class="eyebrow">NUESTROS CLIENTES</span>
+          <h2>Empresas que confían en <span>Sistemas Cutipa.</span></h2>
+          <p class="section-lead">Acompañamos a organizaciones de distintos sectores con soluciones tecnológicas y
+            facturación electrónica.</p>
         </div>
-
+        <div class="client-logos"><img src="assets/img/clients/client-1.png" alt="Cliente"><img
+            src="assets/img/clients/client-2.png" alt="Cliente"><img src="assets/img/clients/client-3.png"
+            alt="Cliente"><img src="assets/img/clients/client-4.png" alt="Cliente"><img
+            src="assets/img/clients/client-5.png" alt="Cliente"><img src="assets/img/clients/client-6.png"
+            alt="Cliente"></div>
+      </div>
+    </section>
+    <section id="contacto" class="section-modern contact-section">
+      <div class="container contact-grid">
+        <div><span class="eyebrow">HABLEMOS</span>
+          <h2>¿Listo para mejorar tu forma de trabajar?</h2>
+          <p class="section-lead">Cuéntanos qué necesitas y un especialista te contactará para orientarte.</p>
+          <div class="contact-details"><a href="https://wa.me/51987639368" target="_blank" rel="noopener"><i
+                class="bi bi-whatsapp"></i><span>+51 987 639 368<small>WhatsApp</small></span></a><a
+              href="mailto:maurodelta9@gmail.com"><i class="bi bi-envelope"></i><span>maurodelta9@gmail.com<small>Correo
+                  comercial</small></span></a><a href="mailto:operacionesTI@sistemascutipa.com"><i
+                class="bi bi-headset"></i><span>operacionesTI@sistemascutipa.com<small>Operaciones y
+                  soporte</small></span></a></div>
+        </div>
+        <form action="forms/contact.php" method="post" class="contact-form">
+          <div class="form-row"><label>Nombre<input name="name" required
+                placeholder="Tu nombre"></label><label>Correo<input type="email" name="email" required
+                placeholder="tu@empresa.com"></label></div><label>Asunto<input name="subject" required
+              placeholder="¿En qué podemos ayudarte?"></label><label>Mensaje<textarea name="message" rows="5" required
+              placeholder="Cuéntanos brevemente sobre tu necesidad"></textarea></label><button class="btn btn-primary"
+            type="submit">Enviar mensaje <i class="bi bi-arrow-right"></i></button><small class="form-note">Tus datos
+            serán tratados únicamente para atender tu solicitud.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+  <section class="trust-badges">
+    <div class="container">
+      <p>Confianza para operar todos los días</p>
+      <div class="badge-grid">
+        <div class="trust-badge sunat-badge"><span class="badge-logo">SUNAT</span><span><strong>Proveedor
+              autorizado</strong><small>Facturación electrónica</small></span></div>
+        <div class="trust-badge aws-badge"><span class="badge-logo">aws</span><span><strong>Respaldo en la
+              nube</strong><small>Infraestructura AWS</small></span></div>
+        <div class="trust-badge iso-badge"><span class="badge-logo">ISO<br><b>27001</b></span><span><strong>Seguridad de
+              la información</strong><small>Buenas prácticas y continuidad</small></span></div>
       </div>
     </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Sistemas Cutipa</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </section>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html"><img class="brand-image" src="assets/img/custom/logo-cutipa.png"
+            alt="Sistemas Cutipa"></a>
+        <p>Tecnología práctica para negocios que quieren crecer.</p>
+        <div class="security-badge"><i class="bi bi-cloud-lock-fill"></i><span><strong>Infraestructura
+              AWS</strong><small>Controles de seguridad e ISO 27001</small></span></div>
+      </div>
+      <div>
+        <h4>Soluciones</h4><a href="servicios/facturacion-electronica.html">Facturación electrónica</a><a
+          href="#guias">Guías electrónicas</a><a href="servicios/soporte-ti.html">Soporte TI</a><a
+          href="servicios/asesoria-tecnologica.html">Asesoría tecnológica</a>
+      </div>
+      <div>
+        <h4>Accesos</h4><a href="https://sistemascutipa.proveedorpse.com/#/login" target="_blank">Facturación V2</a><a
+          href="https://appsoluctimyr.pse.pe/" target="_blank">Facturación V1</a><a href="#manuales">Manuales</a><a
+          href="#contacto">Contáctanos</a>
       </div>
     </div>
-
+    <div class="container footer-bottom"><span>© 2026 Sistemas Cutipa. Todos los derechos reservados.</span><span>Hecho
+        para empresas peruanas <i class="bi bi-heart-fill"></i></span></div>
   </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <a class="whatsapp-float"
+    href="https://wa.me/51987639368?text=Hola%20Sistemas%20Cutipa%2C%20quiero%20informaci%C3%B3n" target="_blank"
+    rel="noopener" aria-label="Contactar por WhatsApp"><i class="bi bi-whatsapp"></i></a>
+  <script>document.querySelector('.menu-toggle').addEventListener('click', () => document.querySelector('.main-nav').classList.toggle('open')); document.querySelectorAll('.main-nav a').forEach(a => a.addEventListener('click', () => document.querySelector('.main-nav').classList.remove('open'))); const slides = [...document.querySelectorAll('.business-slide')], dots = [...document.querySelectorAll('.slider-controls button')]; let currentSlide = 0; function showSlide(i) { slides.forEach((s, n) => s.classList.toggle('active', n === i)); dots.forEach((d, n) => d.classList.toggle('active', n === i)); currentSlide = i } dots.forEach((d, i) => d.addEventListener('click', () => showSlide(i))); setInterval(() => showSlide((currentSlide + 1) % slides.length), 6000); document.querySelectorAll('.bars i').forEach((bar, i) => { bar.style.animationDelay = (i * .12) + 's' }); const contactForm = document.querySelector('.contact-form'); if (contactForm) { contactForm.addEventListener('submit', e => { e.preventDefault(); const data = new FormData(contactForm); const text = ['Hola Sistemas Cutipa, quiero información.', 'Nombre: ' + data.get('name'), 'Correo: ' + data.get('email'), 'Asunto: ' + data.get('subject'), 'Mensaje: ' + data.get('message')].join('\n'); window.open('https://wa.me/51987639368?text=' + encodeURIComponent(text), '_blank', 'noopener'); const note = contactForm.querySelector('.form-note'); if (note) note.textContent = 'Se abrió WhatsApp con tu solicitud lista para enviar.' }) }</script>
 </body>
 
 </html>
